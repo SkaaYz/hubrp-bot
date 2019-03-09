@@ -1,14 +1,15 @@
 {
-  "name": "hubrp-bot",
+  "name": "hubbot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit l"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SkaaYz",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.2.1"
-  }
+  "license": "ISC"
 }
